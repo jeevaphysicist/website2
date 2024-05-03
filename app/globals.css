@@ -2,3 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url("../Fonts/Poppins/Poppins-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("../Fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../Fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../Fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../Fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../Fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../Fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("../Fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("../Fonts/Poppins/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Define classes for each font-weight */
+.thin {
+  font-family: "Poppins-Thin";
+}
+
+.extra-light {
+  font-family: "Poppins-ExtraLight";
+}
+
+.light {
+  font-family: "Poppins-Light";
+}
+
+.regular {
+  font-family: "Poppins-Regular";
+}
+
+.medium {
+  font-family: "Poppins-Medium";
+}
+
+.semi-bold {
+  font-family: "Poppins-SemiBold";
+}
+
+.bold {
+  font-family: "Poppins-Bold";
+}
+
+.extra-bold {
+  font-family: "Poppins-ExtraBold";
+}
+
+.black {
+  font-family: "Poppins-Black";
+}
